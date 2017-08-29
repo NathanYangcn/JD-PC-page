@@ -1,0 +1,182 @@
+#seckill {
+    margin: 10px auto;
+}
+#seckill a {
+    color: #fff;
+}
+#seckill .iconfont {
+    font-size: 14px;
+}
+
+/* seckill-header */
+#seckill .seckill-header {
+    position: relative;
+    padding: 0 20px 0 30px;
+    height: 55px;
+    color: #fff;
+    background: url("./imags/seckill_hd.png") no-repeat 0 0;
+    line-height: 55px;
+}
+#seckill .horn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    background: url("./imags/sprite_index@1x.png") no-repeat -194px -52px;
+}
+#seckill .header-caption {
+    float: left;
+}
+#seckill .header-countdown {
+    float: right;
+}
+
+#seckill .seckill-logo, #seckill .title, #seckill .text {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+#seckill .seckill-logo {
+    margin: 8px 8px 0 0;
+    width: 34px;
+    background: url("./imags/sprite_index@1x.png") no-repeat 0 -40px;
+}
+#seckill .title {
+    margin-top: 8px;
+    font-size: 26px;
+    font-weight: 400;
+}
+#seckill .text {
+    margin: 22px 0 0 12px;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+}
+
+#seckill .describe, #seckill .timer {
+    float: left;
+}
+#seckill .describe {
+    margin-top: 22px;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+}
+#seckill .timer {
+    margin: 0 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+#seckill .timer > div {
+    float: left;
+}
+#seckill .timer .clock {
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 36px;
+    height: 38px;
+    color: #f90013;
+    background-color: #440106;
+    text-align: center;
+    line-height: 38px;
+    overflow: hidden;
+}
+#seckill .timer .colon {
+    margin: 0 4px;
+    color: #440106;
+}
+
+/* seckill-body */
+#seckill .seckill-body {
+    padding: 13px 0;
+    height: 225px;
+    background: #fff;
+    overflow: hidden;
+}
+/*轮播内部子样式*/
+#seckill .carousel-many .carousel-subitem {
+    position: relative;
+    float: left;
+    padding: 0 14px 0 15px;
+    border-right: 1px solid #e0e0e0;
+    width: 170px;
+    height: 100%;
+    text-align: center;
+}
+#seckill .carousel-many .carousel-subitem:last-child {
+    border-right-color: transparent;
+}
+#seckill .carousel-many .carousel-subitem .subitem-link {
+    display: block;
+}
+#seckill .carousel-many .carousel-subitem .subitem-link p {
+    height: 32px;
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+    line-height: 16px;
+    overflow: hidden;
+    word-wrap: break-word; /*允许长单词换行到下一行*/
+    word-break: break-all; /*在恰当的断字点进行换行*/
+}
+#seckill .carousel-many .carousel-subitem .subitem-link img {
+    margin: 17px 0;
+    width: 130px;
+    height: 130px;
+    transition: all .4s;
+}
+#seckill .carousel-many .carousel-subitem .subitem-link:hover p {
+    color: #f10215;
+}
+#seckill .carousel-many .carousel-subitem .subitem-link:hover img {
+    transform: translateY(-5px);
+}
+#seckill .carousel-many .carousel-subitem .subitem-shadow {
+    position: absolute;
+    left: 15px;
+    top: 135px;
+    background: url("./imags/sprite_index@1x.png") no-repeat 0 0;
+    width: 170px;
+    height: 20px;
+}
+#seckill .carousel-many .carousel-subitem .price {
+    padding: 3px 0;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+}
+#seckill .carousel-many .carousel-subitem .price .price-new {
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f10215;
+}
+#seckill .carousel-many .carousel-subitem .price .price-old {
+    font-weight: 400;
+    color: #aaa;
+    text-decoration: line-through;
+}
+#seckill .carousel-many .carousel-subitem .price .price-tag {
+    margin-right: 3px;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/*轮播样式*/
+#seckill .carousel-one,
+#seckill .carousel-many {
+    float: left;
+}
+#seckill .carousel-one {
+    width: 180px;
+    font-size: 0;
+}
+#seckill .carousel-one .carousel-imgct {
+    width: 360px;
+}
+#seckill .carousel-one .carousel-item {
+    width: 180px;
+    height: 100%;
+}

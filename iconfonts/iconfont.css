@@ -1,0 +1,75 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1503471884402'); /* IE9*/
+  src: url('iconfont.eot?t=1503471884402#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1503471884402') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1503471884402') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1503471884402#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cinema-ticket:before { content: "\e61b"; }
+
+.icon-follow:before { content: "\e621"; }
+
+.icon-company:before { content: "\e6d0"; }
+
+.icon-air-ticket:before { content: "\e611"; }
+
+.icon-gift-cards:before { content: "\e650"; }
+
+.icon-triangle-up:before { content: "\e605"; }
+
+.icon-funding:before { content: "\e601"; }
+
+.icon-phone-bill:before { content: "\e602"; }
+
+.icon-fuel:before { content: "\e609"; }
+
+.icon-consult:before { content: "\e600"; }
+
+.icon-game:before { content: "\e666"; }
+
+.icon-discount:before { content: "\e613"; }
+
+.icon-feedback:before { content: "\e637"; }
+
+.icon-shopcart:before { content: "\e631"; }
+
+.icon-location:before { content: "\e6b1"; }
+
+.icon-hotel:before { content: "\e606"; }
+
+.icon-search:before { content: "\e60b"; }
+
+.icon-footprint:before { content: "\e60a"; }
+
+.icon-shopcart-empty:before { content: "\e60f"; }
+
+.icon-camera:before { content: "\e616"; }
+
+.icon-financing:before { content: "\e604"; }
+
+.icon-train-ticket:before { content: "\e64b"; }
+
+.icon-arrow-up:before { content: "\e615"; }
+
+.icon-arrow-down:before { content: "\e610"; }
+
+.icon-arrow-right:before { content: "\e612"; }
+
+.icon-news:before { content: "\e657"; }
+
+.icon-member:before { content: "\e65f"; }
+
+.icon-arrow-left:before { content: "\e614"; }
+
+.icon-lous:before { content: "\e622"; }
+

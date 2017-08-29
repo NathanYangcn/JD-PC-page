@@ -1,0 +1,404 @@
+#summary a {
+    color: #666;
+}
+#summary a:hover {
+    color: #f10215;
+}
+#summary .iconfont {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+#summary .summary-inner {
+    height: 480px;
+}
+#summary .drop-dt a,
+#summary .goodsnav .u-split {
+    color: #fff;
+}
+#summary .drop-dt a:hover {
+    color: #f10215;
+}
+#summary .goodsnav .u-split {
+    margin: 0;
+    border-right: none;
+}
+
+#summary .goodsnav,
+#summary .carousel-wrapper,
+#summary .infoset {
+    float: left;
+}
+
+    /*左边导航栏*/
+#summary .goodsnav {
+    position: relative;
+    padding: 16px 0;
+    width: 190px;
+    height: calc(100% - 16px*2);
+    background: #6e6568;
+}
+#summary .goodsnav .drop-dl {
+    padding-left: 12px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+}
+#summary .goodsnav .drop-dl:hover {
+    background: #999395;
+}
+#summary .goodsnav .drop-dl:hover .drop-dd {
+    display: block;
+}
+#summary .goodsnav .drop-dt {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#summary .goodsnav .drop-dd { /*相对 .goodsnav 定位*/
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    padding: 20px 0 10px 20px;
+    border: 1px solid #ccc;
+    width: 978px;
+    min-height: calc(100% - 32px);
+    background-color: #fff;
+    box-shadow: 1px 0 3px 0 #eee;
+    z-index: 9;
+}
+#summary .goodsnav .drop-dd .goodsnav-channel {
+    width: 800px;
+}
+#summary .goodsnav .drop-dd .goodsnav-menu {
+    padding-top: 10px;
+    width: 800px;
+}
+#summary .goodsnav .drop-dd .goodsnav-ad {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 198px;
+}
+#summary .goodsnav .drop-dd .goodsnav-channel a {
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    height: 24px;
+    color: #fff;
+    background: #6e6568;
+    line-height: 24px;
+}
+
+#summary .drop-dd .goodsnav-menu dl {
+    position: relative;
+    width: 780px;
+    font-size: 12px;
+    line-height: 36px;
+}
+#summary .drop-dd .goodsnav-menu dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    font-weight: 700;
+    text-align: right;
+}
+#summary .drop-dd .goodsnav-menu dd {
+    margin-left: 80px;
+    border-top: 1px solid #e0e0e0;
+    padding: 5px 0;
+    overflow: hidden;
+}
+#summary .drop-dd .goodsnav-menu dl:first-child dd {
+    border-top: none;
+}
+#summary .drop-dd .goodsnav-menu dd a {
+    float: left;
+    margin: 5px 0;
+    padding: 0 10px;
+    border-left: 1px solid #e0e0e0;
+    height: 16px;
+    line-height: 16px;
+}
+
+#summary .goodsnav-ad-small,
+#summary .goodsnav-ad-big {
+    margin: 0 auto;
+    width: 168px;
+    font-size: 0;
+}
+#summary .goodsnav-ad-big {
+    margin-top: 10px;
+}
+#summary .goodsnav-ad-small img {
+    display: inline-block;
+    margin: 0 0 1px 1px;
+    width: 83px;
+    height: 35px;
+}
+#summary .goodsnav-ad-big img {
+    margin-bottom: 1px;
+    width: 168px;
+    height: 134px;
+}
+#summary .goodsnav-ad img {
+    vertical-align: middle;
+}
+
+    /*中间轮播图*/
+#summary .carousel-wrapper {
+    margin: 0 10px;
+    width: 790px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#summary .carousel {
+    width: 100%;
+    height: 340px;
+}
+
+#summary .carousel .carousel-btn .iconfont {
+    margin: 0;
+    font-size: 20px;
+}
+#summary .carousel .carousel-btn {
+    width: 30px;
+    height: 60px;
+    color: #fff;
+    background: rgba(0, 0, 0, .1);
+    line-height: 60px;
+}
+#summary .carousel .carousel-btn:hover {
+    background: rgba(0, 0, 0, .6);
+}
+#summary .carousel .carousel-pre {
+    left: 0;
+}
+#summary .carousel .carousel-next {
+    right: 0;
+}
+
+#summary .carousel .carousel-imgct {
+    /*left: -790px;*/
+    /*width: 7900px;*/
+    width: 6320px;
+    height: 340px;
+}
+#summary .carousel .carousel-item {
+    width: 790px;
+    font-size: 0;
+}
+#summary .carousel .carousel-imgct img {
+    width: 790px;
+    height: 340px;
+    font-size: 16px;
+}
+
+#summary .carousel .carousel-bullet {
+    bottom: 20px;
+    padding: 4px 8px;
+    border-radius: 20px;
+    width: 180px;
+    height: 12px;
+    background: rgba(255, 255, 255, .3);
+}
+#summary .carousel .carousel-bullet i {
+    margin: 0 12px 0 0;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+}
+#summary .carousel .carousel-bullet .s-curbullet {
+    background: #f10215;
+}
+#summary .carousel .carousel-bullet i:last-child {
+    margin-right: 0;
+}
+
+#summary .carousel-ad {
+    margin-top: 10px;
+    margin-right: -10px;
+    width: 800px;
+    height:130px;
+    overflow: hidden;
+}
+#summary .carousel-ad a {
+    float: left;
+    margin-right: 10px;
+    width: 390px;
+    font-size: 0;
+}
+#summary .carousel-ad img {
+    width: 390px;
+    height: 130px;
+    font-size: 16px;
+}
+
+    /*右边信息合集*/
+#summary .infoset {
+    width: 190px;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#summary .infoset-user {
+    /*position: relative;*/
+    /*padding: 0 15px;*/
+    height: 115px;
+}
+#summary .infoset-user-inner {
+    padding: 12px;
+    width: 160px;
+}
+#summary .infoset-user .thumbnail,
+#summary .infoset-user .welcome {
+    float: left;
+}
+#summary .infoset-user .thumbnail {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    margin-right: 10px;
+}
+#summary .infoset-user .thumbnail a {
+    display: block;
+    border: 2px solid #cead68;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+}
+#summary .infoset-user .thumbnail img {
+    position: relative;
+    top: -2px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#summary .infoset-user .welcome {
+    padding: 7px 0;
+    width: 100px;
+    /*height: 50px;*/
+}
+#summary .infoset-user .welfare {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 0;
+}
+#summary .infoset-user .welfare a {
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid #f10215;
+    width: 70px;
+    height: 20px;
+    color: #f10215;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+#summary .infoset-user .welfare a:hover {
+    color: #fff;
+    background: #f10215;
+}
+
+#summary .infoset-notice {
+    position: relative;
+    border-top: 1px solid #e0e0e0;
+    padding: 0 15px;
+    width: 160px;
+    height: 154px;
+}
+#summary .notice-tab {
+    margin-bottom: 1px;
+    padding: 6px 0 2px;
+    border-bottom: 1px solid #ccc;
+}
+#summary .notice-tab > li {
+    float: left;
+    padding: 0 12px;
+    cursor: pointer;
+}
+#summary .notice-tab .u-spacer {
+    margin-left: -12px;
+}
+#summary .notice-tab .u-spacer:after {
+    margin-top: -8px;
+    height: 16px;
+}
+#summary .notice-more {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    color: #666;
+}
+#summary .notice-more:hover {
+    color: #f10215;
+}
+#summary .notice-panel {
+    /*display: none;*/
+}
+#summary .notice-panel > li {
+    display: none;
+    padding: 12px 0;
+}
+#summary .notice-panel p {
+    max-width: 160px;
+    height: 24px;
+    line-height: 24px;
+}
+#summary .notice-panel > .s-active {
+    display: block;
+}
+
+#summary .infoset-shortcut .shortcut-tab {
+    margin-left: -1px;
+}
+#summary .infoset-shortcut .shortcut-tab li {
+    position: relative;
+    float: left;
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    width: 46px;
+    height: 68px;
+    text-align: center;
+    overflow: hidden;
+}
+#summary .infoset-shortcut .corner {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14px;
+    height: 16px;
+    color: #fff;
+    background: #c81623;
+    line-height: 14px;
+    text-align: center;
+}
+#summary .infoset-shortcut .s-on {
+    display: block;
+}
+#summary .infoset-shortcut .shortcut-tab a {
+    display: block;
+    padding-top: 14px;
+    width: 100%;
+    height: calc(100% - 14px);
+    color: #666;
+    line-height: 22px;
+}
+#summary .infoset-shortcut .shortcut-tab a:hover {
+    color: #f10215;
+}
+#summary .infoset-shortcut .shortcut-tab .iconfont {
+    margin: 0;
+    padding: 0 11px;
+    height: 24px;
+    color: #666;
+    font-size: 24px;
+}

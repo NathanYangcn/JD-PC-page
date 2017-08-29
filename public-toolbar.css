@@ -1,0 +1,97 @@
+@keyframes showtext  {
+    from {left: 0;}
+    to {left: -70px;}
+}
+#toolbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    text-align: center;
+}
+#toolbar a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #eee;
+}
+#toolbar .iconfont {
+    font-size: 18px;
+}
+#toolbar .sideline {
+    position: absolute;
+    right: 0;
+    border-right: 6px solid #7a6e6e;
+    height: 100%;
+}
+#toolbar .mytools {
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+#toolbar .collect {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+}
+#toolbar .dl {
+    position: relative;
+    border-top: 1px solid #fff;
+    border-radius: 3px 0 0 3px;
+    width: 34px;
+    background: #7a6e6e;
+    height: 34px;
+    line-height: 34px;
+}
+#toolbar .dl:after, #toolbar .investigate:after {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    content: '';
+    width: 6px;
+    height: 1px;
+    background: #7a6e6e;
+}
+#toolbar .dd {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    padding: 0 10px;
+    border-radius: 3px 0 0 3px;
+    width: 50px;
+    height: 34px;
+    background: #c81623;
+    color: #eee;
+    line-height: 34px;
+}
+#toolbar .dl:hover {
+    background: #c81623;
+    border-radius: 0;
+}
+#toolbar .dl:hover .dd {
+    display: block;
+    animation: showtext .3s;
+}
+#toolbar .investigate {
+    position: relative;
+    padding: 3px 0;
+    border-top: 1px solid #fff;
+    border-radius: 3px 0 0 3px;
+    width: 34px;
+    background: #c81623;
+    height: 28px;
+    line-height: 14px;
+    z-index: 1;
+}
+/*filler 是 li:after 的替代品，功效一样，但html中会存在更多标签，使用after可以节省标签*/
+/*content属性是after，before的必须属性*/
+/*使用时需要在标签内部插入<span class="filler"></span>*/
+#toolbar .filler {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 6px;
+    height: 1px;
+    background: #7a6e6e;
+}

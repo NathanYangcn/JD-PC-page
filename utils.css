@@ -1,0 +1,107 @@
+/*布局*/
+.g-wrap {
+    margin: 0 auto;
+    width: 1190px;
+}
+
+/*工具*/
+    /*三角形*/
+.u-triangle {
+    border: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    width: 0;
+    height: 0;
+}
+    /*清除浮动*/
+.u-clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+    /*多余文字显示三点*/
+.u-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+    /*文字间隔*/
+.u-spacer {
+    position: relative;
+    float: left;
+}
+.u-spacer:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    width: 1px;
+    height: 12px;
+    background: #ccc;
+}
+.u-spacer:last-child {
+    padding-right: 0;
+}
+.u-spacer:last-child:after {
+    background: transparent;
+}
+    /*文字分割*/
+.u-split {
+    margin: 0 8px;
+    border-right: 1px solid #ccc;
+    /*width: 1px;*/
+    /*background: #ccc;*/
+    height: 10px;
+}
+    /*简单垂直居中 - 目标添加 inline-block 和 vertical-middle */
+.u-middle:before {
+    display: inline-block;
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+}
+    /*绝对居中 - 参考对象添加 position 值 */
+.u-absmiddle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    /*组件：搜索框 - 需要设置父元素的宽高度 */
+.m-search-bar {
+    width: 550px;
+    height: 35px;
+    line-height: 35px;
+}
+.m-search-input {
+    float: left;
+    padding: 4px;
+    border: 1px solid #efefef;
+    width: 490px;
+    height: 25px;
+    font-size: 14px;
+    background: #efefef;
+    outline: none;
+}
+.m-search-upload {
+    position: absolute;
+    right: 65px;
+    height: 100%;
+}
+.m-search-upload:hover {
+    color: #c81623;
+    cursor: pointer;
+}
+.m-search-upload > input[type=file] {
+    display: none;
+}
+.m-search-btn {
+    float: left;
+    width: 50px;
+    height: 100%;
+    color: #fff;
+    background: #f10215;
+    text-align: center;
+    cursor: pointer;
+}

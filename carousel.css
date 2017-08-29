@@ -1,0 +1,71 @@
+/*carousel*/
+.carousel {
+    position: relative;
+    width: 1000px; /*carousel-default*/
+    height: 225px;
+    overflow: hidden;
+}
+
+/*carousel-btn*/
+.carousel .carousel-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 50px;
+    font-size: 20px;
+    color: #272526;
+    background: rgba(0,0,0,.1);
+    line-height: 50px;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+}
+.carousel .carousel-pre {
+    left: 10px;
+}
+.carousel .carousel-next {
+    right: 10px;
+}
+.carousel:hover .carousel-btn {
+    display: block;
+}
+
+/*carousel-imgct*/
+.carousel .carousel-imgct {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4000px; /*carousel-default*/
+    height: 100%;
+}
+/*carousel-item*/
+.carousel .carousel-item {
+    float: left;
+    width: 1000px; /*carousel-default*/
+    height: 100%;
+    overflow: hidden;
+}
+/*carousel-bullet*/
+.carousel .carousel-bullet {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 15px; /*carousel-default*/
+    width: 100%;  /*carousel-default*/
+    height: 10px; /*carousel-default*/
+    font-size: 0;
+    text-align: center;
+}
+.carousel .carousel-bullet > i {
+    display: inline-block;
+    margin: 0 3px; /*carousel-default*/
+    border-radius: 50%; /*carousel-default*/
+    width: 10px; /*carousel-default*/
+    height: 10px; /*carousel-default*/
+    background: #342a2d;
+}
+.carousel .carousel-bullet .s-curbullet {
+    background: #e01222;
+}

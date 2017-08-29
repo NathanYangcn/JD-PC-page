@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px/1.5 'Microsoft YaHei';
+    background-color: #f6f6f6;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

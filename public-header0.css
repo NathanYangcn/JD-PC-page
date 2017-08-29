@@ -1,0 +1,315 @@
+.g-wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1190px;
+}
+.dd {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
+.dd ul {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.dd ul:last-child {
+    border-bottom: none;
+}
+.dd li {
+    float: left;
+    width: 85px;
+}
+.triangle {
+    border: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    width: 0;
+    height: 0;
+}
+.dd-title {
+    margin-right: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+    /*header*/
+#header {
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    color: #999;
+    background: #e3e4e5;
+    line-height: 28px;
+}
+#header .iconfont {
+    padding-left: 3px;
+    font-size: 12px;
+}
+
+    /*坐标*/
+#header .location-wrap {
+    float: left;
+}
+.location {
+    position: relative;
+}
+.location .curcity {
+    position: relative;
+    height: 31px;
+    text-align: center;
+}
+.location .city-list > li {
+    float: left;
+    width: 60px;
+}
+.location .city-list a {
+    float: left;
+    padding: 2px 8px;
+    color: #999;
+    line-height: 24px;
+}
+.location .city-list a:hover {
+    background: #eee;
+}
+.location .city-list .selected {
+    color: #fff;
+    background: #f10215;
+}
+.location .city-list .selected:hover {
+    color: #fff;
+    background: #f10215;
+}
+.location .city-list {
+    display: none;
+    position: absolute;
+    left: 8px;
+    top: 31px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 300px;
+    background: #fff;
+}
+.location:hover .city-list {
+    display: block;
+}
+#header .location:hover .curcity {
+    border: 2px solid #ccc;
+    border-bottom: none;
+    background: #fff;
+    z-index: 99;
+}
+#header .location .icon-location {
+    color: #f10215;
+    padding-left: 0;
+}
+
+
+    /*导航*/
+#header .menubar {
+    float: right;
+}
+#header .menubar > li {
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+#header .menubar > li:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    content: " ";
+    width: 1px;
+    height: 12px;
+    background: #ccc;
+}
+#header .menubar > li:last-child {
+    padding-right: 0;
+}
+#header .menubar > li:last-child:after {
+    background: transparent;
+}
+#header .menubar > li:hover > .dd {
+    display: block;
+}
+.dd:hover {
+    display: block;
+}
+#header .dt {
+    margin: 0 8px;
+    padding: 0 5px;
+    border: 2px solid transparent;
+    border-bottom:none;
+}
+#header .regist {
+    padding: 0 3px;
+    color: #f10215;
+}
+#header .login {
+    padding: 0 3px;
+    color: #999;
+}
+#header .login:hover {
+    color: #f10215;
+}
+#header .positon-item {
+    position: relative;
+}
+#header .img-wrap {
+    position: absolute;
+    top: 1px;
+    right: 50%;
+    margin-right: -38px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    height: 60px;
+}
+#header .triangle {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    margin-left: -5px;
+    z-index: 199;
+}
+
+#header .dl3:hover .dt {
+    position: relative;
+    border: 2px solid #ccc;
+    border-bottom:none;
+    height: 31px;
+    background-color: #fff;
+    z-index: 99;
+}
+#header .dl3 .dd{
+    position: absolute;
+    top: 31px;
+    left: 8px;
+    border: 2px solid #ccc;
+    width: 260px;
+    background: #fff;
+    z-index: 98;
+}
+#header .dl3 .dd li {
+    width: 130px;
+}
+
+#header .dl6:hover .dt {
+    position: relative;
+    border: 2px solid #ccc;
+    border-bottom:none;
+    height: 31px;
+    background-color: #fff;
+    z-index: 99;
+}
+#header .dl6 .dd{
+    position: absolute;
+    top: 31px;
+    right: 8px;
+    border: 2px solid #ccc;
+    width: 170px;
+    background: #fff;
+    z-index: 98;
+}
+
+#header .dl7:hover .dt {
+    position: relative;
+    border: 2px solid #ccc;
+    border-bottom:none;
+    height: 31px;
+    background-color: #fff;
+    z-index: 99;
+}
+#header .dl7 .dd{
+    position: absolute;
+    top: 31px;
+    right: -77px;
+    border: 2px solid #ccc;
+    width: 170px;
+}
+#header .dl7 .dd {
+    width: 1188px;
+    background: #fff;
+    z-index: 98;
+ }
+#header .dl7 .dd ul {
+    float: left;
+    padding-left: 20px;
+    padding-right: 0;
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+}
+#header .dl7 .dd li {
+    float: left;
+}
+#header .dl7 .dd ul:last-child {
+    border-right: none;
+}
+#header .dl7 .theme {
+    width: 340px;
+}
+#header .dl7 .channel {
+    width: 255px;
+}
+#header .dl7 .service {
+    width: 255px;
+}
+#header .dl7 .more {
+    width: 255px;
+}
+
+#header .dl8 {
+    height: 31px;
+}
+#header .dl8 .dd {
+    position: absolute;
+    top: 31px;
+    right: 0;
+    border: 2px solid #ccc;
+    background: #fff;
+    z-index: 99;
+}
+#header .dl8 .dd ul {
+    padding: 0;
+    width: 190px;
+}
+#header .dl8 .dd li {
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    width: 190px;
+}
+#header .dl8 .dd li:last-child {
+    border-bottom: none;
+}
+#header .dl8 .mobile-img {
+    margin-right: 12px;
+    float: left;
+    width: 74px;
+}
+#header .dl8 .mobile-tit {
+    line-height: 17px;
+}
+#header .dl8 .mobile-info {
+    margin: 5px 0;
+    line-height: 14px;
+    color: #f10215;
+}
+#header .dl8 .mobile-dev {
+    line-height: 30px;
+    font-size: 0;
+}
+#header .dl8 .mobile-dev > a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("imags/sprite_mobile@1x.png");
+    vertical-align: middle;
+}
+#header .dl8 .mobile-ios {
+    background-position: 0 0;
+}
+#header .dl8 .mobile-and {
+    background-position: 0 -26px;
+}
+#header .dl8 .mobile-pad {
+    background-position: 0 -52px;
+}

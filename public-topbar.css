@@ -1,0 +1,260 @@
+/*topbar*/
+#topbar {
+    /*border-bottom: 1px solid #ddd;*/
+    height: 30px;
+    color: #999;
+    background: #e3e4e5;
+    line-height: 29px;
+}
+#topbar a {
+    color: #999;
+}
+#topbar a:hover {
+    color: #f10215;
+}
+
+/*iconfont*/
+#topbar .iconfont {
+    padding-left: 3px;
+    font-size: 12px;
+}
+#topbar .location .icon-location {
+    color: #f10215;
+    padding-left: 0;
+}
+
+/*组件-下拉菜单-公共样式*/
+#topbar .dl {
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+#topbar .dt {
+    margin: 0 8px;
+    padding: 0 5px;
+    border: 1px solid transparent;
+    border-bottom:none;
+}
+#topbar .dd ul {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+#topbar .dd ul:last-child {
+    border-bottom: none;
+}
+#topbar .dd li {
+    float: left;
+    width: 85px;
+}
+#topbar .dd-title {
+    margin-right: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #666;
+}
+
+/*控制显示组件-下拉菜单*/
+#topbar .m-show-dropdown:hover .dt {
+    position: relative;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    height: 30px;
+    background-color: #fff;
+    z-index: 99;
+}
+#topbar .m-dropdown{
+    display: none;
+    position: absolute;
+    top: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: hidden;
+    z-index: 98;
+}
+
+#topbar .location:hover > .dd {
+    display: block;
+}
+#topbar .dl:hover > .dd {
+    display: block;
+}
+#topbar .dd:hover {
+    display: block;
+}
+
+/*城市坐标*/
+#topbar .location-wrap {
+    float: left;
+    width: 23%;
+}
+#topbar .location {
+    float: right;
+}
+#topbar .curcity-name {
+    padding-right: 3px;
+}
+#topbar .city-list {
+    left: 8px;
+    padding: 10px;
+    width: 300px;
+}
+#topbar .city-list > li {
+    float: left;
+    width: 60px;
+    cursor: auto;
+}
+#topbar .city-list a {
+    float: left;
+    padding: 2px 8px;
+    color: #999;
+    line-height: 24px;
+}
+#topbar .city-list a:hover {
+    background: #eee;
+    color: #f10215;
+}
+#topbar .city-list .s-selected {
+    color: #fff;
+    background: #f10215;
+}
+#topbar .city-list .s-selected:hover {
+    color: #fff;
+    background: #f10215;
+}
+
+/*导航*/
+#topbar .menubar {
+    position: relative;
+    float: right;
+}
+#topbar .register {
+    padding: 0 3px;
+    color: #f10215;
+}
+#topbar .login {
+    padding: 0 3px;
+    color: #999;
+}
+#topbar .login:hover {
+    color: #f10215;
+}
+#topbar .positon {
+    position: relative;
+}
+#topbar .positon-img {
+    position: absolute;
+    top: 1px;
+    right: 50%;
+    margin-right: -35px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    height: 60px;
+}
+#topbar .u-triangle {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    margin-left: -5px;
+    z-index: 199;
+}
+
+#topbar .dl3 .dd{
+    left: 8px;
+    width: 260px;
+}
+#topbar .dl3 .dd li {
+    width: 130px;
+}
+
+#topbar .dl6 .dd{
+    right: 8px;
+    width: 170px;
+}
+
+#topbar .dl7 .dd {
+    right: -77px;
+    width: 1188px;
+}
+#topbar .dl7 .dd ul {
+    float: left;
+    padding-left: 20px;
+    padding-right: 0;
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+}
+#topbar .dl7 .dd ul:last-child {
+    border-right: none;
+}
+#topbar .dl7 .dd li {
+    float: left;
+}
+#topbar .dl7 .theme {
+    width: 340px;
+}
+#topbar .dl7 .channel {
+    width: 255px;
+}
+#topbar .dl7 .service {
+    width: 255px;
+}
+#topbar .dl7 .more {
+    width: 255px;
+}
+
+#topbar .dl8 {
+    height: 31px;
+}
+#topbar .dl8 .dd {
+    right: 0;
+    width: 190px;
+}
+#topbar .dl8 .dd ul {
+    padding: 0;
+}
+#topbar .dl8 .dd li {
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    width: 190px;
+}
+#topbar .dl8 .dd li:last-child {
+    border-bottom: none;
+}
+#topbar .dl8 .mobile-img {
+    margin-right: 12px;
+    float: left;
+    width: 74px;
+}
+#topbar .dl8 .mobile-tit {
+    color: #666;
+    line-height: 17px;
+}
+#topbar .dl8 .mobile-tit a {
+    color: #666;
+}
+#topbar .dl8 .mobile-info {
+    margin: 5px 0;
+    line-height: 14px;
+    color: #f10215;
+}
+#topbar .dl8 .mobile-dev {
+    line-height: 30px;
+    font-size: 0;
+}
+#topbar .dl8 .mobile-dev > a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("imags/sprite_mobile@1x.png");
+    vertical-align: middle;
+}
+#topbar .dl8 .mobile-ios {
+    background-position: 0 0;
+}
+#topbar .dl8 .mobile-and {
+    background-position: 0 -26px;
+}
+#topbar .dl8 .mobile-pad {
+    background-position: 0 -52px;
+}

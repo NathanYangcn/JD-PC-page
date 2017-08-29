@@ -1,0 +1,12 @@
+.slide-wraper {
+    position: relative;
+}
+.slide {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(0);
+    transition: transform .3s ease;
+    width: 26px;
+    height: 2px;
+    background: #db192b;
+}

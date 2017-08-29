@@ -1,0 +1,146 @@
+#header a {
+    color: #555;
+}
+#header a:hover {
+    color: #c81623;
+}
+
+#header .header-inner {
+    position: relative;
+    height: 140px;
+}
+
+#header .header-logo {
+    box-shadow: 0 -12px 10px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 190px;
+    height: 170px;
+    overflow: hidden;
+    z-index: 90;
+}
+#header .header-logo a {
+    display: block;
+    background: #fff url("./imags/logo.v2.png") no-repeat 0 0;
+    height: 100%;
+    font-size: 0;
+}
+
+#header .helpoor {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 190px;
+    height: 40px;
+    overflow: hidden;
+}
+#header .helpoor a {
+    display: block;
+    background: url("./imags/59952aecN3b6574c8.png") no-repeat 0 -5px;
+    height: 100%;
+    font-size: 0;
+}
+
+#header .m-search-bar {
+    top: 25px;
+    transform: translate(-50%, 0);
+}
+#header .m-search-bar input {
+    border-color: #f10215;
+    background: #fff;
+}
+
+#header .hotsearch {
+    top: 55%;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+    text-overflow: clip;
+}
+#header .hotsearch span {
+    margin-right:6px;
+}
+#header .hotsearch a {
+    color: #999;
+}
+#header .hotsearch a:hover,
+#header .hotsearch .s-active {
+    color: #c81623;
+}
+
+#header .navcrumbs {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 790px;
+    height: 40px;
+    font-size: 0;
+    font-weight: 700;
+    line-height: 40px;
+    overflow: hidden;
+}
+#header .navcrumbs span {
+    margin-left: 30px;
+    font-size: 16px;
+}
+#header .navcrumbs .u-split {
+    position: relative;
+    left: 15px;
+    margin: 0 5px;
+}
+
+#header .myshopcart {
+    position: absolute;
+    right: 99px;
+    top: 25px;
+    width: 190px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    z-index: 1;
+}
+#header .myshopcart .dt {
+    position: relative;
+    border: 1px solid #e3e4e5;
+    color: #f10215;
+    background: #fff;
+    z-index: 2;
+}
+#header .myshopcart .goodsnum {
+    position: relative;
+    top: -7px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    background: #f10215;
+    line-height: 14px;
+}
+#header .myshopcart .dd {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    width: 308px;
+    height: 48px;
+    color: #999;
+    background: #fff;
+    line-height: 48px;
+    vertical-align: middle;
+}
+#header .myshopcart .icon-shopcart-empty {
+    font-size: 48px;
+    vertical-align: middle;
+}
+#header .myshopcart:hover .dt {
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+#header .myshopcart:hover .dd {
+    display: block;
+}

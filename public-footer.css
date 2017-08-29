@@ -1,0 +1,126 @@
+#footer {
+    background: #eaeaea;
+}
+#footer a {
+    color: #666;
+}
+#footer a:hover {
+    color: #c81623;
+}
+
+#footer .server {
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+#footer .server li {
+    float: left;
+    width: 25%;
+    font-size: 0;
+    text-align: center;
+}
+#footer .server h5, #footer .server p {
+    display: inline-block;
+    height: 42px;
+    vertical-align: middle;
+}
+#footer .server h5 {
+    margin-right: 10px;
+    width: 36px;
+    background-image: url("./imags/ico_service.png");
+    overflow: hidden;
+}
+#footer .server p {
+    font-size: 18px;
+    color: #444;
+    font-weight: 700;
+    line-height: 42px;
+}
+#footer .server .server-tit1 {
+    background-position: 0 0;
+}
+#footer .server .server-tit2 {
+    background-position: 0 128px;
+}
+#footer .server .server-tit3 {
+    background-position: 0 85px;
+}
+#footer .server .server-tit4 {
+    background-position: 0 42px;
+}
+
+#footer .help {
+    padding: 20px 0;
+    border-bottom: 1px solid #dedede;
+    color: #666;
+}
+#footer .help-list > li {
+    float: left;
+    width: 198px;
+    line-height: 22px;
+}
+#footer .help-title {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#footer .help-title-center {
+    text-align: center;
+}
+#footer .help-checkout {
+    text-align: right;
+}
+
+#footer .copyright {
+    padding: 15px 0;
+    color: #999;
+    line-height: 22px;
+    text-align: center;
+}
+#footer .copyright a {
+    color: #999;
+}
+
+#footer .copyright-link > li {
+    display: inline-block;
+}
+#footer .copyright-link a:hover {
+    color: #c81623;
+}
+
+#footer .copyright-info {
+    padding: 10px 0;
+}
+#footer .copyright-info p {
+    font-size: 0;
+    height: 22px;
+}
+#footer .copyright-info span {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#footer .copyright-auth a {
+    display: inline-block;
+    margin: 0 5px;
+    width: 103px;
+    height: 32px;
+    background-image: url("./imags/ico_footer.png");
+    overflow: hidden;
+}
+#footer .copyright-auth1 {
+    background-position: 0 -151px;
+}
+#footer .copyright-auth2 {
+    background-position:  -104px -151px;
+}
+#footer .copyright-auth3 {
+    background-position: 0 -184px;
+}
+#footer .copyright-auth4 {
+    background-position: -104px -184px;
+}
+#footer .copyright-auth5 {
+    background-position: 0 -217px;
+}
+#footer .copyright-auth6 {
+    background-position: -104px -217px;
+}

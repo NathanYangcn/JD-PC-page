@@ -1,0 +1,50 @@
+#navbar {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-45%);
+    color: #fefefe;
+    background: #918888;
+    text-align: center;
+    line-height: 14px;
+    z-index: 100;
+}
+#navbar .iconfont {
+    font-size: 12px;
+}
+#navbar li {
+    margin-bottom: -1px;
+    padding: 7px 5px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #918888;
+    width: 24px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background .1s;
+}
+#navbar li:first-child {
+    border-top: none;
+}
+#navbar li:hover {
+    position: relative;
+    border-top: 1px solid #d70b1c;
+    border-bottom: 1px solid #d70b1c;
+    background: #d70b1c;
+    z-index: 199;
+}
+#navbar li:first-child:hover {
+    border-top: none;
+}
+#navbar .s-current {
+    background: #d70b1c;
+}
+#navbar .gotop {
+    padding-bottom: 0;
+    border-top: 1px solid #fff;
+    color: #fff;
+    background: #5e4a4a;
+}
+#navbar .gotop:hover {
+    border-top: 1px solid #fff;
+    background: #5e4a4a;
+}

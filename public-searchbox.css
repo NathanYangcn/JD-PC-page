@@ -1,0 +1,27 @@
+#searchbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #c81623;
+    height:48px;
+    background: #fff;
+    z-index: 199;
+}
+#searchbox .iconfont {
+    font-size: 20px;
+}
+#searchbox .search-logo {
+    float: left;
+    height:48px;
+}
+#searchbox .logo {
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    font-size: 0;
+    background: url("./imags/logo_s.v2.png") no-repeat 0 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
