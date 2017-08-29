@@ -26,7 +26,7 @@
 #footer .server h5 {
     margin-right: 10px;
     width: 36px;
-    background-image: url("./imags/ico_service.png");
+    background-image: url("../imags/ico_service.png");
     overflow: hidden;
 }
 #footer .server p {
@@ -103,7 +103,7 @@
     margin: 0 5px;
     width: 103px;
     height: 32px;
-    background-image: url("./imags/ico_footer.png");
+    background-image: url("../imags/ico_footer.png");
     overflow: hidden;
 }
 #footer .copyright-auth1 {

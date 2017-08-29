@@ -21,7 +21,7 @@
     width: 125px;
     height: 40px;
     font-size: 0;
-    background: url("./imags/logo_s.v2.png") no-repeat 0 0;
+    background: url("../imags/logo_s.v2.png") no-repeat 0 0;
     overflow: hidden;
     vertical-align: middle;
 }

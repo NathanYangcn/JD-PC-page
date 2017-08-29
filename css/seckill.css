@@ -14,7 +14,7 @@
     padding: 0 20px 0 30px;
     height: 55px;
     color: #fff;
-    background: url("./imags/seckill_hd.png") no-repeat 0 0;
+    background: url("../imags/seckill_hd.png") no-repeat 0 0;
     line-height: 55px;
 }
 #seckill .horn {
@@ -23,7 +23,7 @@
     left: 0;
     width: 28px;
     height: 28px;
-    background: url("./imags/sprite_index@1x.png") no-repeat -194px -52px;
+    background: url("../imags/sprite_index@1x.png") no-repeat -194px -52px;
 }
 #seckill .header-caption {
     float: left;
@@ -40,7 +40,7 @@
 #seckill .seckill-logo {
     margin: 8px 8px 0 0;
     width: 34px;
-    background: url("./imags/sprite_index@1x.png") no-repeat 0 -40px;
+    background: url("../imags/sprite_index@1x.png") no-repeat 0 -40px;
 }
 #seckill .title {
     margin-top: 8px;
@@ -136,7 +136,7 @@
     position: absolute;
     left: 15px;
     top: 135px;
-    background: url("./imags/sprite_index@1x.png") no-repeat 0 0;
+    background: url("../imags/sprite_index@1x.png") no-repeat 0 0;
     width: 170px;
     height: 20px;
 }

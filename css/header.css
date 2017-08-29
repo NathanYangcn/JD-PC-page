@@ -22,7 +22,7 @@
 }
 #header .header-logo a {
     display: block;
-    background: #fff url("./imags/logo.v2.png") no-repeat 0 0;
+    background: #fff url("../imags/logo.v2.png") no-repeat 0 0;
     height: 100%;
     font-size: 0;
 }
@@ -37,7 +37,7 @@
 }
 #header .helpoor a {
     display: block;
-    background: url("./imags/59952aecN3b6574c8.png") no-repeat 0 -5px;
+    background: url("../imags/59952aecN3b6574c8.png") no-repeat 0 -5px;
     height: 100%;
     font-size: 0;
 }
