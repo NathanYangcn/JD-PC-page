@@ -6,7 +6,7 @@ var clockMinutes = document.querySelector('#seckill .minutes');
 var clockSeconds = document.querySelector('#seckill .seconds');
 
 var clockTimer = setInterval(function () {
-    countdown(Date.now(), "2017-08-31T15:35:00");
+    countdown(Date.now(), "2017-09-15");
 }, 1000);
 
 function countdown(startLine, endLine) {
@@ -24,8 +24,8 @@ function formatTime (sec) {
     var minutesTotal = Math.floor(secondsTotal / 60);
     var minutes = minutesTotal % 60 + '';
     var hoursTotal = Math.floor(minutesTotal / 60);
-    var hours = hoursTotal % 60 + '';
-    hours = hours.length<2 ? '0'+hours : hours;
+    // var hours = hoursTotal % 24 + '';
+    hours = hoursTotal.length<2 ? '0'+hoursTotal : hoursTotal;
     minutes = minutes.length<2 ? '0'+minutes : minutes;
     seconds = seconds.length<2 ? '0'+seconds : seconds;
     return {
